@@ -79,8 +79,7 @@ const createWebp = () => {
     .src("src/img/**/*.{png,jpg}")
     .pipe(
       squoosh({
-        webp: {},
-        avif: {},
+        webp: {}
       })
     )
     .pipe(gulp.dest("build/img"));
@@ -169,7 +168,7 @@ const watcher = () => {
 export const build = gulp.series(
   clean,
   copy,
-  // optimizeImages,
+  optimizeImages,
   htmlInclude,
   gulp.parallel(styles, htmlMinify, scripts, svg, sprite, createWebp)
 );
