@@ -1,0 +1,70 @@
+.promo {
+  padding: 30px 0 111px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__content {
+    max-width: 500px;
+    margin-bottom: 45px;
+    padding-top: 86px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 45px;
+    padding-right: 20px;
+    font-family: $font-family-poppins-regular;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  &__images {
+    margin-left: auto;
+    width: 642px;
+    height: 494px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: $font-family-poppins-bold;
+    font-size: $font-size-text;
+    color: $color-btn-primary;
+    text-decoration: underline;
+
+    &-svg {
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+    }
+
+    & use {
+      fill: $color-btn-primary;
+    }
+  }
+
+  &__link:hover {
+    color: $color-btn-hover;
+
+    use {
+      fill: $color-btn-hover;
+    }
+  }
+
+  & .btn__colored {
+    margin-right: 44px;
+  }
+}

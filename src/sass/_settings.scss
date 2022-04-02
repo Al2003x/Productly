@@ -59,3 +59,22 @@ h3,
 p {
   margin: 0;
 }
+
+h1 {
+  font-family: $font-family-poppins-bold;
+  font-size: $font-size-h1;
+  line-height: 5.4rem;
+  color: $color-title;
+}
+
+h2 {
+  font-size: $font-size-title;
+  line-height: 4.6rem;
+  color: $color-title;
+}
+
+h3 {
+  font-size: $font-size-h3;
+  line-height: 3rem;
+  color: $color-title;
+}
