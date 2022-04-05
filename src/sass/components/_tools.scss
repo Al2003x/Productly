@@ -1,0 +1,103 @@
+.tools {
+  padding-bottom: 90px;
+
+  &__wrapper {
+    background-image: url("../../img/tools-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  &__title {
+    max-width: 462px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: $font-family-opensans-bold;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+}
+
+.tool {
+  min-width: px;
+  margin-right: 50px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 19px;
+
+    &--arrow {
+      background-color: #7752be;
+    }
+
+    &--snake {
+      background-color: #fab005;
+    }
+
+    &--heart {
+      background-color: #f03e3d;
+    }
+
+    &--clock {
+      background-color: #4dadf7;
+    }
+
+    &-svg {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+
+      &--arrow {
+        background-image: url("../../img/arrow.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &--snake {
+        background-image: url("../../img/snake.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &--heart {
+        background-image: url("../../img/heart.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      &--clock {
+        background-image: url("../../img/clock.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-family: $font-family-opensans-bold;
+  }
+
+  &__text {
+    line-height: 2.6rem;
+  }
+}
